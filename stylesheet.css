@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 3rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 2rem;
+}
+
+nav ul li{
+    margin-right: 2rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+.login-btn{
+    width: 100px;
+    background-color: #54B8FF;
+    color: white;
+    border: none;
+    padding: .5rem;
+    margin-bottom: .7rem;
+}
+
+.hero-section{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-left{
+    
+}
+
+.hero-section h5{
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+
+.hero-section p{
+    margin: 1rem 0;
+}
+
+#apply-btn{
+    width: 10vw;
+    padding: .7rem;
+    background-color: #54B8FF;
+    color: white;
+    border: none;
+    text-align: center;
+}
+
+.arrow{
+    position: relative;
+    top: 9px;
+}
+
+.hero-right{
+    padding-top: 3rem;
+}
+
+.hero-right .img{
+    width: 60px;
+    position: relative;
+}
+
+.img-first{
+    right: 350px;
+    bottom: 100px;
+}
+
+.img-second{
+    right: 330px;
+    bottom: 180px;
+}
+
+.img-third{
+    right: 300px;
+    bottom: 250px;
+}
+
+.img-fourth{
+    right: 250px;
+    bottom: 190px;
+}
+
+.img-fifth{
+    right: 220px;
+    bottom: 100px;
+}
+
+/* dot section starts */
+
+.dot-section{
+    padding: 1rem;
+    margin: 8rem auto;
+    display: flex;
+    position: absolute;
+    text-align: right;
+}
+
+
+
+.dot-one, .dot-two, .dot-three{
+    position: relative;
+}
+
+.dot-one{
+    bottom: 70px;
+    right: 126px;
+}
+
+.dot-two{
+    bottom: 70px;
+    right: 330px;
+}
+
+.dot-three{
+    bottom: 110px;
+    right: 305px;
+}
